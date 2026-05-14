@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "212969654875",
+    "project_id": "tracify-c686b",
+    "storage_bucket": "tracify-c686b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212969654875:android:4c8651efc934cf6a12cd7e",
+        "android_client_info": {
+          "package_name": "com.example.tracify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOPEvcogDRyBqRpRCkxLDxhkyYfpEe_yE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

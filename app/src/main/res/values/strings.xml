@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Tracify</string>
+    <string name="welcome">Welcome Back</string>
+    <string name="LText">Login to your account</string>
+    <string name="LEmail">Email</string>
+    <string name="LPassword">Password</string>
+    <string name="Login">LOGIN</string>
+    <string name="create">Create Account</string>
+    <string name="details">Fill the details to get started</string>
+    <string name="FName">Full Name</string>
+    <string name="SEmail">Email</string>
+    <string name="SPassword">Password</string>
+    <string name="SignUP">SIGN UP</string>
+    <string name="SD">Already have an account? Login</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_rider">RiderActivity</string>
+    <string name="title_activity_customer">CustomerActivity</string>
+    <string name="tracking">Tracking ON</string>
+    <string name="direction">Lat: 0.0 / Lng: 0.0</string>
+    <string name="start">Start Button</string>
+    <string name="stop">Stop Button</string>
+    <string name="title_activity_tracing">TracingActivity</string>
+    <string name="riders">Riders</string>
+</resources>

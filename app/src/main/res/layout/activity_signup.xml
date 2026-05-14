@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:gravity="center"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_blue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/details"
+            android:textColor="@color/text_hint"
+            android:layout_marginBottom="40dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/SName"
+            android:textColor="@color/black"
+            android:hint="@string/FName"
+            android:paddingLeft="20dp"
+            android:layout_marginBottom="15dp"
+            android:textColorHint="@color/text_hint"
+            android:background="@drawable/edt_text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="@string/SEmail"
+            android:id="@+id/SEmail"
+            android:textColor="@color/black"
+            android:paddingLeft="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/edt_text"
+            android:textColorHint="@color/text_hint"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="@string/SPassword"
+            android:textColor="@color/black"
+            android:id="@+id/SPass"
+            android:textColorHint="@color/text_hint"
+            android:paddingLeft="20dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/edt_text"
+            android:inputType="textPassword" />
+
+        <RadioGroup
+            android:id="@+id/roleGroup"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <RadioButton
+                android:id="@+id/riderRole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="22dp"
+                android:text="Rider"
+                android:textColor="@color/black"/>
+
+            <RadioButton
+                android:id="@+id/customerRole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:textColor="@color/black"
+                android:text="Customer" />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:id="@+id/btnSign"
+            android:text="@string/SignUP"
+            android:textColor="@color/white"
+            android:background="@drawable/button" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textLogin"
+            android:text="@string/SD"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/primary_blue"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</layout>
