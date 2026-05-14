@@ -79,8 +79,9 @@ Tracify is a real-time rider tracking system that enables live location monitori
 
 ##  Screenshots
 
- coming soon
-
+| SignUp | Initial View | Tracking Active | Rider List | Customer View |
+| :---: | :---: | :---: | :---: | :---: |
+| <img src="screenshots/signup.png" width="180"> | <img src="screenshots/track.png" width="180"> | <img src="screenshots/trac-rider.png" width="180"> | <img src="screenshots/riderlis.png" width="180"> | <img src="screenshots/Rider-loc.png" width="180"> |
 ---
 
 ##  About This Project
